@@ -6,7 +6,7 @@ Extract it.
 `cd /.../pywapi/`
 `$ python3 setup.py build` 
 `$ python setup.py install`
-After installation, run code.py in terminal.
+After installation, run code.py in terminal. (Don't forget to `cd` in folder, where file is located.)
 `python3 code.py`
 # Cities
 My project have a small number of cities. Contact me, I'll add your city in the list!
