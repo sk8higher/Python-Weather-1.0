@@ -11,6 +11,16 @@ CITIES = {
     8: {'name': 'Los Angeles', 'code': 'USCA0638'},
     9: {'name': 'Jerusalim', 'code': 'ISXX0010'},
     10: {'name': 'Warsaw', 'code': 'PLXX0028'},
+    11: {'name': 'Washington','code': 'USDC0001'},
+    12: {'name': 'Ohio','code': 'USIL0884'},
+    13: {'name': 'Miami','code': 'USFL0316'},
+    14: {'name': 'Jerusalim', 'code': 'ISXX0010'},
+    15: {'name': 'Warsaw', 'code': 'PLXX0028'},
+    16: {'name': 'Wales', 'code': 'UKXX0030'},
+    17: {'name': 'Dublin', 'code': 'EIXX0014'},
+    18: {'name': 'Toronto', 'code': 'CAXX0504'},
+    19: {'name': 'Manchester', 'code': 'USCA0663'},
+    20: {'name': 'Liverpool', 'code': 'USIL0678'}
 }
 
 
@@ -41,5 +51,5 @@ if __name__ == '__main__':
     if city:
         weather = get_weather(city)
         print_weather(weather, city)
-    else:
-        print('Wrong city code')
+ else:
+    print('Wrong city code')
