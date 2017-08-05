@@ -10,4 +10,4 @@ After installation, run code.py in terminal. (Don't forget to `cd` in folder, wh
 `python3 code.py`
 # Cities
 My project have a small number of cities. Contact me, I'll add your city in the list!
-Moscow, Minsk, Saint Petersburg, New York, Bristol, Warsaw, Jerusalim, London, Liev, Los Angeles. I'll add new cities in next updates!
+Moscow, Minsk, Saint Petersburg, New York, Bristol, Warsaw, Jerusalim, London, Liev, Los Angeles, Washington, Ohio, Miami, Wales, Dublin, Toronto, Manchester, Liverpool. I'll add new cities in next updates!
