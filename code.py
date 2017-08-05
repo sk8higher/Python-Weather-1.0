@@ -1,24 +1,32 @@
 import pywapi
 
 CITIES = {
-    1: {'name': 'Moscow', 'code': 'RSXX0063'},
-    2: {'name': 'Minsk', 'code': 'BOXX0014'},
-    3: {'name': 'Saint-Petersburg', 'code': 'RSXX0091'},
-    4: {'name': 'New York', 'code': 'USNY0996'},
-    5: {'name': 'London', 'code': 'UKXX0085'},
-    6: {'name': 'Bristol', 'code': 'UKXX0025'},
-    7: {'name': 'Kiev', 'code': 'UPXX0486'},
-    8: {'name': 'Los Angeles', 'code': 'USCA0638'},
-    9: {'name': 'Jerusalim', 'code': 'ISXX0010'},
-    10: {'name': 'Warsaw', 'code': 'PLXX0028'},
-    11: {'name': 'Washington','code': 'USDC0001'},
-    12: {'name': 'Ohio','code': 'USIL0884'},
-    13: {'name': 'Miami','code': 'USFL0316'},
-    14: {'name': 'Wales', 'code': 'UKXX0030'},
-    15: {'name': 'Dublin', 'code': 'EIXX0014'},
-    16: {'name': 'Toronto', 'code': 'CAXX0504'},
-    17: {'name': 'Manchester', 'code': 'USCA0663'},
-    18: {'name': 'Liverpool', 'code': 'USIL0678'}
+    1: {'name': 'Moscow, Russia', 'code': 'RSXX0063'},
+    2: {'name': 'Saint-Petersburg, Russia', 'code': 'RSXX0091'},
+    3: {'name': 'New York, USA', 'code': 'USNY0996'},
+    4: {'name': 'Los Angeles, USA', 'code': 'USCA0638'},
+    5: {'name': 'Washington, USA', 'code': 'USDC0001'},
+    6: {'name': 'Ohio, USA','code': 'USIL0884'},
+    7: {'name': 'Miami, USA','code': 'USFL0316'},
+    8: {'name': 'London, UK', 'code': 'UKXX0085'},
+    9: {'name': 'Bristol, UK', 'code': 'UKXX0025'},
+    10: {'name': 'Manchester, UK, ', 'code': 'USCA0663'},
+    11: {'name': 'Liverpool, UK', 'code': 'USIL0678'},
+    12: {'name': 'Wales, UK', 'code': 'UKXX0030'},
+    13: {'name': 'Sheffield, UK', 'code': 'UKXX0133'},
+    14: {'name': 'Newcastle upon Tyne, UK', 'code': 'UKXX1695'},
+    15: {'name': 'Dublin, Ireland','code': 'EIXX0014'},
+    16: {'name': 'Toronto, Canada','code': 'CAXX0504'},
+    17: {'name': 'Minsk, Belarus','code': 'BOXX0014'},
+    18: {'name': 'Grodno, Belarus','code': 'BOMI0841'},
+    19: {'name': 'Vitebsk, Belarus','code': 'BOXX0014'},
+    20: {'name': 'Mogilev, Belarus','code,': 'BOXX0018'},
+    21: {'name': 'Brest, Belarus','code': 'BOXX0023'},
+    22: {'name': 'Grodno, Belarus','code': 'BOXX0016'},
+    23: {'name': 'Kiev, Ukraine', 'code': 'UPXX0486'},
+    24: {'name': 'Jerusalem, Israel', 'code': 'ISXX0010'},
+    25: {'name': 'Warsaw, Poland', 'code': 'PLXX0028'},
+    26: {'name': 'Melbourne, Australia', 'code': 'ASXX0075'}
 }
 
 
@@ -49,5 +57,5 @@ if __name__ == '__main__':
     if city:
         weather = get_weather(city)
         print_weather(weather, city)
- else:
-    print('Wrong city code')
+    else:
+        print('Wrong city code')
